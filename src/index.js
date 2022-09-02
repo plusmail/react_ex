@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MyComponent from "./MyComponent";
+import ClassComponent from "./ClassComponent";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/*<App />*/}
+      <MyComponent name={'홍길동'}>대한 민국</MyComponent>
+      <ClassComponent favoriteNumber={1} name={"감감찬"} >삼천리 강산</ClassComponent>
   </React.StrictMode>
 );
 
