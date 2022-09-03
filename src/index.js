@@ -5,6 +5,8 @@ import reportWebVitals from './reportWebVitals';
 import MyComponent from "./MyComponent";
 import ClassComponent from "./ClassComponent";
 import Counter from "./Counter";
+import Say from "./Say";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +15,7 @@ root.render(
       <MyComponent name={'홍길동'} favoriteNumber={10}>대한 민국</MyComponent>
       <ClassComponent favoriteNumber={1} name={"감감찬"} >삼천리 강산</ClassComponent>
       <Counter></Counter>
+      <Say/>
   </React.StrictMode>
 );
 
