@@ -6,6 +6,8 @@ import MyComponent from "./MyComponent";
 import ClassComponent from "./ClassComponent";
 import Counter from "./Counter";
 import Say from "./Say";
+import EventPractice from "./EventPractice";
+import Example from "./Example";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +18,8 @@ root.render(
       <ClassComponent favoriteNumber={1} name={"감감찬"} >삼천리 강산</ClassComponent>
       <Counter></Counter>
       <Say/>
+      <EventPractice/>
+        <Example/>
   </React.StrictMode>
 );
 
