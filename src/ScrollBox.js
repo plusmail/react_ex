@@ -13,7 +13,7 @@ class ScrollBox extends Component {
         const innerStyle = {
             width: '100%',
             height : '650px',
-            background : 'liner-gradient(white, black)'
+            background : 'linear-gradient(white, black)'
         }
 
         return (
