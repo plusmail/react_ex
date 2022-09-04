@@ -8,6 +8,7 @@ import Counter from "./Counter";
 import Say from "./Say";
 import EventPractice from "./EventPractice";
 import Example from "./Example";
+import ScrollBox from "./ScrollBox";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,6 +21,7 @@ root.render(
       <Say/>
       <EventPractice/>
         <Example/>
+      <ScrollBox/>
   </React.StrictMode>
 );
 
